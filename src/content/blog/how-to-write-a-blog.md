@@ -1,8 +1,8 @@
 ---
 author: Ameer Jhan
 pubDatetime: 2020-03-17T22:30:03.284Z
-title: How to write a blog?
-postSlug: how-to-write-a-blog
+title: Writing a blog
+postSlug: writing-a-blog
 draft: false
 tags:
   - thoughts
