@@ -53,6 +53,7 @@ export default function MetaData({
           <>
             <span aria-hidden="true"> | </span>
             <CoffeeSvg size={size} />
+            <span className="sr-only">and it takes </span>
             {readingTime}
           </>
         )}
