@@ -14,9 +14,9 @@ description: React has so much magic but how many of us really understand what i
 
 When I started learning React I felt whatever it did was pure magic, then I started to wonder what were the actual ingredients of this magic. I started to freak out when I realized whatever React does is very simple and we can build it with few lines of JavaScript if we are not betting on it for our next big startup. This is what has motivated me to write this article and hopefully after reading this, you will also feel the same way.
 
-## Table of contents
-
 > What I cannot create, I do not understand - Richard Feynman
+
+## Table of contents
 
 ## What features we will build?
 

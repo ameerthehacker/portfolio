@@ -6,6 +6,7 @@ import getSortedPosts from "@utils/getSortedPosts";
 import getPageNumbers from "@utils/getPageNumbers";
 import slugify from "@utils/slugify";
 import { SITE } from "@config";
+import { withReadingTime } from "@utils/readingTime";
 
 export interface Props {
   post: CollectionEntry<"blog">;
@@ -29,7 +30,7 @@ export async function getStaticPaths() {
 const { slug } = Astro.params;
 const { post } = Astro.props;
 
-const posts = await getCollection("blog");
+const posts = withReadingTime(await getCollection("blog"));
 
 const sortedPosts = getSortedPosts(posts);
 
@@ -47,7 +48,7 @@ const paginatedPosts = sortedPosts.slice(startPost, lastPost);
 
 {
   post ? (
-    <PostDetails post={post} />
+    <PostDetails post={withReadingTime(post)} />
   ) : (
     <Posts
       posts={paginatedPosts}

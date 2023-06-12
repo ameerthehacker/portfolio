@@ -1,4 +1,4 @@
-import Datetime from "./Datetime";
+import MetaData from "./MeataData";
 import type { BlogFrontmatter } from "@content/_schemas";
 
 export interface Props {
@@ -25,7 +25,7 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
           </h3>
         )}
       </a>
-      <Datetime datetime={pubDatetime} />
+      <MetaData datetime={pubDatetime} readingTime={frontmatter.readingTime} />
       <p>{description}</p>
     </li>
   );
