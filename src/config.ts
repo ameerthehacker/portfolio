@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Ameer Jhan",
   desc: "Ameer Jhan's life on the internet",
   title: "@ameerthehacker",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "ameer-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
 };
