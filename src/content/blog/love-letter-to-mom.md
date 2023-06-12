@@ -1,7 +1,7 @@
 ---
 author: Ameer Jhan
 pubDatetime: 2022-01-03T04:30:00Z
-title: A love letter to moms 💝
+title: A love letter to moms
 postSlug: a-love-letter-to-moms
 featured: true
 draft: false
