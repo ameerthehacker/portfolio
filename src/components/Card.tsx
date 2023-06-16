@@ -1,4 +1,4 @@
-import MetaData from "./MeataData";
+import MetaData from "./MetaData";
 import type { BlogFrontmatter } from "@content/_schemas";
 
 export interface Props {

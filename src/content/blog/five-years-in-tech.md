@@ -1,6 +1,6 @@
 ---
 author: Ameer Jhan
-pubDatetime: 2023-06-12T15:22:00Z
+pubDatetime: 2023-06-12
 title: Five years in tech
 postSlug: five-years-in-tech
 featured: true

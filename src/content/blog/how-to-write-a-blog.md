@@ -1,6 +1,6 @@
 ---
 author: Ameer Jhan
-pubDatetime: 2020-03-17T22:30:03.284Z
+pubDatetime: 2020-03-17
 title: Writing a blog
 postSlug: writing-a-blog
 draft: false

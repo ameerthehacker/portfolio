@@ -1,6 +1,6 @@
 ---
 author: Ameer Jhan
-pubDatetime: 2019-11-05T15:22:00Z
+pubDatetime: 2019-11-05
 title: Build your own React in 90 lines of JavaScript
 postSlug: build-your-own-react
 featured: true
